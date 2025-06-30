@@ -14,7 +14,7 @@ Upload food images or text to generate personalized recipes with:
 - 🧴 Allergy filtering  
 - 🧠 Ingredient analysis  
 
-Built with **Next.js**, **GPT APIs**, **image classification**, and **MongoDB**.
+Built with **Next.js**, **Node.js**, **Express**, **GPT APIs**, **image classification**, and **MongoDB**.
 
 ---
 
