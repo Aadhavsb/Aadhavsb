@@ -6,12 +6,12 @@
 
 ---
 
-## 🌟 Highlight Project: [Palate](#)
+## 🌟 Highlight Project: Palate
 
 **AI-powered recipe generation platform**  
 Upload food images or text to generate personalized recipes with:
-- 🍽️ Cuisine tagging
-- 🧴 Allergy filtering
+- 🍽️ Cuisine tagging  
+- 🧴 Allergy filtering  
 - 🧠 Ingredient analysis  
 
 Built with **Next.js**, **GPT APIs**, **image classification**, and **MongoDB**.
@@ -20,7 +20,7 @@ Built with **Next.js**, **GPT APIs**, **image classification**, and **MongoDB**.
 
 ## 🛠️ My Toolbox
 
-**Languages**: Python, JavaScript/TypeScript, C, R  
+**Languages**: Python, JavaScript/TypeScript, Java, C#, C, R  
 **Frameworks**: Next.js, React, Node.js, Express  
 **Infra & DB**: MongoDB, Firebase, Vercel, NextAuth  
 **AI/ML**: PyTorch, Transformers, NumPy, SciPy  
