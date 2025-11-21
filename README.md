@@ -31,4 +31,4 @@ Built with **Next.js**, **Node.js**, **Express**, **GPT APIs**, **image classifi
 
 📧 Email: [bharadwajaadhav@gmail.com](mailto:bharadwajaadhav@gmail.com)  
 💼 LinkedIn: [linkedin.com/in/aadhav-bharadwaj](https://linkedin.com/in/aadhav-bharadwaj)  
-📄 [View My Resume](https://drive.google.com/file/d/1J5YsWXeU-5DrI5iDPlsuf5CkfaAfnsMB/view?usp=sharing)
+
