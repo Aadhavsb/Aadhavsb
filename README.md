@@ -13,10 +13,10 @@ Ask a natural-language question, get a grounded, cited answer over public NTSB a
 reports. A single Postgres/pgvector store backs keyword search, dense vector search, and SQL
 aggregation. Retrieval is hybrid (BM25 + dense, fused with Reciprocal Rank Fusion), and a raw
 tool-calling agent (no framework) chooses between hybrid search, read-only SQL queries, and
-full-report fetches at runtime. Every request is traced in Langfuse, and a frozen gold set drives
-an eval-gated CI pipeline designed to act as a retrieval-regression gate.
+full-report fetches inside a bounded agentic loop. Every request is traced in Langfuse, and a
+frozen gold set drives an eval-gated CI pipeline designed to act as a retrieval-regression gate.
 
-- Stack: Python, PostgreSQL + pgvector, hybrid retrieval (BM25 + dense, RRF), tool-calling agent, Langfuse, Docker, GitHub Actions
+- Stack: Python, PostgreSQL + pgvector, hybrid retrieval (BM25 + dense, RRF), agentic tool-calling loop, Langfuse, Docker, GitHub Actions
 - Repo: https://github.com/Aadhavsb/blackbox-qa
 
 ### Arguably — real-time debate platform
@@ -36,7 +36,7 @@ PostgreSQL change notifications. OpenAI powers live transcription and real-time 
 
 - Languages: Python, JavaScript/TypeScript, Java, C#, C, R
 - Frameworks: Next.js, React, Node.js, Express, FastAPI, Spring Boot
-- LLM infra: vLLM, AWS Bedrock, Langfuse, OpenAI-compatible gateways, RAG & LLM-as-judge eval pipelines
+- LLM infra: vLLM, AWS Bedrock, LangChain, Langfuse, OpenAI-compatible gateways, RAG & LLM-as-judge eval pipelines
 - Data & infra: PostgreSQL, MongoDB, Elasticsearch, Supabase, Docker, Vercel, nginx
 - AI/ML: PyTorch, Transformers, pgvector, NumPy, SciPy
 
