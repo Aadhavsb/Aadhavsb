@@ -1,7 +1,7 @@
 # Aadhav S Bharadwaj
 
 - Computer Science & Mathematics student at Case Western Reserve University.
-- Building production LLM infrastructure — OpenAI-compatible model gateways, RAG evaluation pipelines, vLLM/AWS Bedrock serving, and LLM observability and cost tracking with Langfuse.
+- Building production LLM infrastructure — OpenAI-compatible model gateways, RAG evaluation pipelines, agentic tool-calling loops, vLLM/AWS Bedrock serving, and LLM observability and cost tracking with Langfuse.
 - Interested in software engineering, ML infrastructure, and robust full-stack systems.
 
 ---
@@ -13,10 +13,10 @@ Ask a natural-language question, get a grounded, cited answer over public NTSB a
 reports. A single Postgres/pgvector store backs keyword search, dense vector search, and SQL
 aggregation. Retrieval is hybrid (BM25 + dense, fused with Reciprocal Rank Fusion), and a raw
 tool-calling agent (no framework) chooses between hybrid search, read-only SQL queries, and
-full-report fetches inside a bounded agentic loop. Every request is traced in Langfuse, and a
-frozen gold set drives an eval-gated CI pipeline designed to act as a retrieval-regression gate.
+full-report fetches at runtime. Every request is traced in Langfuse, and a frozen gold set drives
+an eval-gated CI pipeline designed to act as a retrieval-regression gate.
 
-- Stack: Python, PostgreSQL + pgvector, hybrid retrieval (BM25 + dense, RRF), agentic tool-calling loop, Langfuse, Docker, GitHub Actions
+- Stack: Python, PostgreSQL + pgvector, hybrid retrieval (BM25 + dense, RRF), tool-calling agent, Langfuse, Docker, GitHub Actions
 - Repo: https://github.com/Aadhavsb/blackbox-qa
 
 ### Arguably — real-time debate platform
