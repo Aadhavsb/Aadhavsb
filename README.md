@@ -1,8 +1,8 @@
 # Aadhav S Bharadwaj
 
-Computer Science & Mathematics student at Case Western Reserve University.
-Researcher focused on KV cache compression for scalable, memory-efficient LLM inference,
-with a strong interest in software engineering, ML infrastructure, and robust full-stack systems.
+- Computer Science & Mathematics student at Case Western Reserve University.
+- Software engineering intern building production LLM infrastructure — OpenAI-compatible model gateways, RAG evaluation pipelines, vLLM/AWS Bedrock serving, and LLM observability and cost tracking with Langfuse.
+- Interested in software engineering, ML infrastructure, and robust full-stack systems.
 
 ---
 
@@ -35,8 +35,9 @@ an eval-gated CI pipeline designed to act as a retrieval-regression gate.
 ## Toolbox
 
 - Languages: Python, JavaScript/TypeScript, Java, C#, C, R
-- Frameworks: Next.js, React, Node.js, Express
-- Infra & DB: PostgreSQL, MongoDB, Supabase, Firebase, Vercel, Docker
+- Frameworks: Next.js, React, Node.js, Express, FastAPI, Spring Boot
+- LLM infra: vLLM, AWS Bedrock, Langfuse, OpenAI-compatible gateways, RAG & LLM-as-judge eval pipelines
+- Data & infra: PostgreSQL, MongoDB, Elasticsearch, Supabase, Docker, Vercel, nginx
 - AI/ML: PyTorch, Transformers, pgvector, NumPy, SciPy
 
 ---
