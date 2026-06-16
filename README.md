@@ -1,23 +1,12 @@
 # Aadhav S Bharadwaj
 
 - Computer Science & Mathematics student at Case Western Reserve University.
-- Software engineering intern building production LLM infrastructure — OpenAI-compatible model gateways, RAG evaluation pipelines, vLLM/AWS Bedrock serving, and LLM observability and cost tracking with Langfuse.
+- Building production LLM infrastructure — OpenAI-compatible model gateways, RAG evaluation pipelines, vLLM/AWS Bedrock serving, and LLM observability and cost tracking with Langfuse.
 - Interested in software engineering, ML infrastructure, and robust full-stack systems.
 
 ---
 
 ## Highlight Projects
-
-### Arguably — real-time debate platform
-A purpose-built platform for structured, moderated live debates (timed turns, audience voting,
-moderation controls, real-time feedback). The architecture separates stateful media transport
-from application state: a standalone Node.js mediasoup (WebRTC) SFU handles low-latency audio/video,
-Socket.IO coordinates signaling and session state, and Supabase Realtime syncs debate state via
-PostgreSQL change notifications. OpenAI powers live transcription and real-time fact-checking.
-
-- Stack: TypeScript, Next.js, Prisma ORM, PostgreSQL (Supabase), mediasoup/WebRTC, Socket.IO, OpenAI
-- Live: https://arguably.vercel.app
-- Repo: https://github.com/Aadhavsb/arguably
 
 ### Blackbox-QA — agentic Q&A over NTSB aviation reports
 Ask a natural-language question, get a grounded, cited answer over public NTSB aviation incident
@@ -29,6 +18,17 @@ an eval-gated CI pipeline designed to act as a retrieval-regression gate.
 
 - Stack: Python, PostgreSQL + pgvector, hybrid retrieval (BM25 + dense, RRF), tool-calling agent, Langfuse, Docker, GitHub Actions
 - Repo: https://github.com/Aadhavsb/blackbox-qa
+
+### Arguably — real-time debate platform
+A purpose-built platform for structured, moderated live debates (timed turns, audience voting,
+moderation controls, real-time feedback). The architecture separates stateful media transport
+from application state: a standalone Node.js mediasoup (WebRTC) SFU handles low-latency audio/video,
+Socket.IO coordinates signaling and session state, and Supabase Realtime syncs debate state via
+PostgreSQL change notifications. OpenAI powers live transcription and real-time fact-checking.
+
+- Stack: TypeScript, Next.js, Prisma ORM, PostgreSQL (Supabase), mediasoup/WebRTC, Socket.IO, OpenAI
+- Live: https://arguably.vercel.app
+- Repo: https://github.com/Aadhavsb/arguably
 
 ---
 
